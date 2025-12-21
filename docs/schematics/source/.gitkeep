@@ -1,0 +1,6 @@
+# Place original CAD source files here
+# - KiCad projects (.kicad_pro, .kicad_sch, .kicad_pcb)
+# - Altium projects (.PrjPcb, .SchDoc, .PcbDoc)
+# - Eagle projects (.brd, .sch)
+# - Other EDA formats
+

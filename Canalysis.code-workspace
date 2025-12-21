@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"mplab.clangd.arguments": [
+			"--compile-commands-dir=${workspaceFolder}\\_build\\Canalysis\\default"
+		],
+		"mplab.project.workspace.addNewSourceFiles": "Always",
+		"mplab.project.workspace.removeDeletedSourceFiles": "Always"
+	}
+}
