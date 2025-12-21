@@ -22,13 +22,3 @@ docs/
 └── reference/                   # Reference designs and application notes
     └── README.md
 ```
-
-## Quick Start
-
-1. Fill out `HARDWARE_SPEC.md` with your board's pin mapping and hardware details
-2. Fill out `REQUIREMENTS.md` with your desired features and use cases
-3. Add datasheets to the `datasheets/` folder
-4. Add schematic files to the `schematics/` folder
-
-Once complete, the AI assistant can use this information to generate appropriate firmware.
-
