@@ -1,115 +1,115 @@
 Archive member included to satisfy reference by file (symbol)
 
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-bootstrap-exception-handler.o)
-                              D:\Users\diego\AppData\Local\Temp\ccPZkICg.o (_bootstrap_exception_handler)
+                              D:\Users\diego\AppData\Local\Temp\cc0HYpKj.o (_bootstrap_exception_handler)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-on-reset.o)
-                              D:\Users\diego\AppData\Local\Temp\ccPZkICg.o (_on_reset)
+                              D:\Users\diego\AppData\Local\Temp\cc0HYpKj.o (_on_reset)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-on-bootstrap.o)
-                              D:\Users\diego\AppData\Local\Temp\ccPZkICg.o (_on_bootstrap)
+                              D:\Users\diego\AppData\Local\Temp\cc0HYpKj.o (_on_bootstrap)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-nmi-handler.o)
-                              D:\Users\diego\AppData\Local\Temp\ccPZkICg.o (_nmi_handler)
+                              D:\Users\diego\AppData\Local\Temp\cc0HYpKj.o (_nmi_handler)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(pic32_data_init_core.o)
-                              D:\Users\diego\AppData\Local\Temp\ccPZkICg.o (__pic32_data_init)
+                              D:\Users\diego\AppData\Local\Temp\cc0HYpKj.o (__pic32_data_init)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(general-exception.o)
-                              D:\Users\diego\AppData\Local\Temp\ccPZkICg.o (_general_exception_context)
+                              D:\Users\diego\AppData\Local\Temp\cc0HYpKj.o (_general_exception_context)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector0.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_0)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_0)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector1.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_1)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_1)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector2.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_2)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_2)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector3.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_3)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_3)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector4.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_4)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_4)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector5.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_5)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_5)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector6.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_6)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_6)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector7.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_7)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_7)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector8.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_8)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_8)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector9.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_9)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_9)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector10.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_10)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_10)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector11.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_11)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_11)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector12.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_12)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_12)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector13.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_13)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_13)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector14.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_14)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_14)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector15.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_15)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_15)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector16.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_16)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_16)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector17.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_17)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_17)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector18.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_18)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_18)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector19.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_19)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_19)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector20.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_20)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_20)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector21.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_21)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_21)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector22.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_22)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_22)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector23.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_23)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_23)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector24.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_24)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_24)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector25.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_25)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_25)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector26.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_26)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_26)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector27.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_27)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_27)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector28.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_28)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_28)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector29.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_29)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_29)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector30.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_30)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_30)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector31.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_31)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_31)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector32.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_32)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_32)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector33.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_33)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_33)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector34.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_34)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_34)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector35.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_35)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_35)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector36.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_36)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_36)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector37.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_37)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_37)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector38.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_38)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_38)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector39.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_39)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_39)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector40.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_40)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_40)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector41.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_41)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_41)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector42.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_42)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_42)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector43.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_43)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_43)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector44.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_44)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_44)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector48.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_48)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_48)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector49.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_49)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_49)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector50.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_50)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_50)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(vector51.o)
-                              D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o (__vector_dispatch_51)
+                              D:\Users\diego\AppData\Local\Temp\cca20UlV.o (__vector_dispatch_51)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-general-exception-handler.o)
                               C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(general-exception.o) (_general_exception_handler)
 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(defaultinterrupt.o)
@@ -140,108 +140,108 @@ Microchip PIC32 Memory-Usage Report
 kseg0 Program-Memory Usage
 section                    address  length [bytes]      (dec)  Description
 -------                 ----------  -------------------------  -----------
-.text.main              0x9d000000          0xb84        2948   
-.rodata.cdc_send_number 0x9d000b84          0xb47        2887   
-.text.usb_service       0x9d0016cc          0xa90        2704   
-.text.can_enable        0x9d00215c          0x84c        2124   
-.text.run_loopback_test 0x9d0029a8          0x6e0        1760   
-.text.gvret_process_byt 0x9d003088          0x658        1624   
-.text.CAN1_Init_Interna 0x9d0036e0          0x640        1600   
-.text.CAN1_Init_Externa 0x9d003d20          0x310         784   
-.text.CAN2_Init_Interna 0x9d004030          0x2e8         744   
-.text.CAN2_Init_Externa 0x9d004318          0x2ac         684   
-.text.can_tx            0x9d0045c4          0x228         552   
-.text.usb_init          0x9d0047ec          0x220         544   
-.text.CAN1_Init_Externa 0x9d004a0c          0x214         532   
-.text.CAN1_ISR          0x9d004c20          0x210         528   
-.text.CAN2_Init_Externa 0x9d004e30          0x1fc         508   
-.text.can_process_rx    0x9d00502c          0x1e4         484   
-.text.CAN1_SendMessage  0x9d005210          0x1d0         464   
-.text.CAN2_SendMessage  0x9d0053e0          0x1d0         464   
-.text.gvret_handle_buil 0x9d0055b0          0x194         404   
-.text.CAN2_ISR          0x9d005744          0x188         392   
-.dinit                  0x9d0058cc          0x170         368   
-.text.rx_queue_push     0x9d005a3c          0x164         356   
-.text.init_endpoints    0x9d005ba0          0x148         328   
-.text.gvret_send_can_fr 0x9d005ce8          0x148         328   
-.text.process_cdc_setup 0x9d005e30          0x140         320   
-.text.app_out_transacti 0x9d005f70          0x13c         316   
-.text.can_rx_get        0x9d0060ac          0x13c         316   
-.text._USB1Interrupt    0x9d0061e8          0x120         288   
-.text.gvret_flush       0x9d006308           0xf8         248   
-.text.send_status_messa 0x9d006400           0xf4         244   
-.text.print_loopback_su 0x9d0064f4           0xf4         244   
-.text.general_exception 0x9d0065e8           0xdc         220   
-.text.wait_can_mode     0x9d0066c4           0xd4         212   
-.text.cdc_send_string   0x9d006798           0xcc         204   
-.text.cdc_send_number   0x9d006864           0xcc         204   
-.text.usb_arm_out_endpo 0x9d006930           0xc8         200   
-.text.usb_send_in_buffe 0x9d0069f8           0xc4         196   
-.text.start_control_ret 0x9d006abc           0xb8         184   
-.text.can_disable       0x9d006b74           0xa8         168   
-.text.can_driver_init   0x9d006c1c           0x98         152   
-.text.usb_send_in_buffe 0x9d006cb4           0x88         136   
-.text.cdc_send_hex_sid  0x9d006d3c           0x84         132   
-.text.app_set_configura 0x9d006dc0           0x80         128   
-.text.usb_get_out_buffe 0x9d006e40           0x80         128   
-.text                   0x9d006ec0           0x7c         124  App's exec code 
-.text.cdc_send_hex_byte 0x9d006f3c           0x74         116   
-.text.usb_application_g 0x9d006fb0           0x74         116   
-.text.can_configure     0x9d007024           0x74         116   
-.text.usb_halt_ep_out   0x9d007098           0x6c         108   
-.text.memmove           0x9d007104           0x68         104   
-.text.usb_get_in_buffer 0x9d00716c           0x60          96   
-.text.gvret_init        0x9d0071cc           0x60          96   
-.text.usb_halt_ep_in    0x9d00722c           0x5c          92   
-.text.gvret_buffer_resp 0x9d007288           0x5c          92   
-.text.usb_start_receive 0x9d0072e4           0x58          88   
-.text.app_set_control_l 0x9d00733c           0x54          84   
-.text.main_entry        0x9d007390           0x54          84   
-.text.app_usb_reset_cal 0x9d0073e4           0x50          80   
-.text.stall_ep_in       0x9d007434           0x50          80   
-.text.copy_to_ep0_in_bu 0x9d007484           0x50          80   
-.text.gvret_flush_if_ne 0x9d0074d4           0x4c          76   
-.text._bootstrap_except 0x9d007520           0x48          72   
-.text._general_exceptio 0x9d007568           0x48          72   
-.vector_default         0x9d0075b0           0x48          72   
-.rodata.configuration_1 0x9d0075f8           0x46          70   
-.text                   0x9d007640           0x44          68  App's exec code 
-.text.can_rx_available  0x9d007684           0x3c          60   
-.text.send_zero_length_ 0x9d0076c0           0x38          56   
-.text.delay_ms          0x9d0076f8           0x34          52   
-.text.app_in_transactio 0x9d00772c           0x34          52   
-.text.stall_ep0         0x9d007760           0x30          48   
-.text.set_line_coding   0x9d007790           0x30          48   
-.text.gvret_get_timesta 0x9d0077c0           0x2c          44   
-.text.memcpy            0x9d0077ec           0x2c          44   
-.text.strlen            0x9d007818           0x2c          44   
-.text.app_get_line_codi 0x9d007844           0x28          40   
-.text.memset            0x9d00786c           0x28          40   
-.rodata.product_string  0x9d007894           0x24          36   
-.text.usb_in_endpoint_h 0x9d0078b8           0x24          36   
-.text.usb_send_data_sta 0x9d0078dc           0x24          36   
-.text.gvret_buffer_byte 0x9d007900           0x24          36   
-.text.app_unknown_setup 0x9d007924           0x20          32   
-.text                   0x9d007944           0x20          32  App's exec code 
-.rodata.str00           0x9d007964            0x4           4   
-.MIPS.abiflags          0x9d007968           0x18          24   
-.text                   0x9d007980           0x30          48  App's exec code 
-.rodata.vendor_string   0x9d0079b0           0x14          20   
-.text.reset_ep0_data_st 0x9d0079c4           0x14          20   
-.rodata                 0x9d0079d8           0x14          20  Read-only const 
-.rodata.serial_string   0x9d0079ec           0x12          18   
-.rodata.this_device_des 0x9d007a00           0x12          18   
-.text.app_get_device_st 0x9d007a14            0x8           8   
-.text.app_endpoint_halt 0x9d007a1c            0x8           8   
-.text.app_set_interface 0x9d007a24            0x8           8   
-.text.app_get_interface 0x9d007a2c            0x8           8   
-.text.app_unknown_get_d 0x9d007a34            0x8           8   
-.text.app_start_of_fram 0x9d007a3c            0x8           8   
-.text.app_set_line_codi 0x9d007a44            0x8           8   
-.text.usb_get_configura 0x9d007a4c            0x8           8   
-.text._on_reset         0x9d007a54            0x8           8   
-.text._on_bootstrap     0x9d007a5c            0x8           8   
-      Total kseg0_program_mem used  :      0x7a5d       31325  6.0% of 0x80000
+.text.main              0x9d000000          0xb80        2944   
+.rodata.cdc_send_number 0x9d000b80          0xb47        2887   
+.text.usb_service       0x9d0016c8          0xa90        2704   
+.text.can_enable        0x9d002158          0x84c        2124   
+.text.run_loopback_test 0x9d0029a4          0x6e0        1760   
+.text.gvret_process_byt 0x9d003084          0x658        1624   
+.text.CAN1_Init_Interna 0x9d0036dc          0x640        1600   
+.text.CAN1_Init_Externa 0x9d003d1c          0x310         784   
+.text.CAN2_Init_Interna 0x9d00402c          0x2e8         744   
+.text.CAN2_Init_Externa 0x9d004314          0x2ac         684   
+.text.can_tx            0x9d0045c0          0x228         552   
+.text.usb_init          0x9d0047e8          0x220         544   
+.text.CAN1_Init_Externa 0x9d004a08          0x214         532   
+.text.CAN1_ISR          0x9d004c1c          0x210         528   
+.text.CAN2_Init_Externa 0x9d004e2c          0x1fc         508   
+.text.can_process_rx    0x9d005028          0x1e4         484   
+.text.CAN1_SendMessage  0x9d00520c          0x1d0         464   
+.text.CAN2_SendMessage  0x9d0053dc          0x1d0         464   
+.text.gvret_handle_buil 0x9d0055ac          0x194         404   
+.text.CAN2_ISR          0x9d005740          0x188         392   
+.dinit                  0x9d0058c8          0x170         368   
+.text.rx_queue_push     0x9d005a38          0x164         356   
+.text.init_endpoints    0x9d005b9c          0x148         328   
+.text.gvret_send_can_fr 0x9d005ce4          0x148         328   
+.text.process_cdc_setup 0x9d005e2c          0x140         320   
+.text.app_out_transacti 0x9d005f6c          0x13c         316   
+.text.can_rx_get        0x9d0060a8          0x13c         316   
+.text._USB1Interrupt    0x9d0061e4          0x120         288   
+.text.gvret_flush       0x9d006304           0xf8         248   
+.text.send_status_messa 0x9d0063fc           0xf4         244   
+.text.print_loopback_su 0x9d0064f0           0xf4         244   
+.text.general_exception 0x9d0065e4           0xdc         220   
+.text.wait_can_mode     0x9d0066c0           0xd4         212   
+.text.cdc_send_string   0x9d006794           0xcc         204   
+.text.cdc_send_number   0x9d006860           0xcc         204   
+.text.usb_arm_out_endpo 0x9d00692c           0xc8         200   
+.text.usb_send_in_buffe 0x9d0069f4           0xc4         196   
+.text.start_control_ret 0x9d006ab8           0xb8         184   
+.text.can_disable       0x9d006b70           0xa8         168   
+.text.can_driver_init   0x9d006c18           0x98         152   
+.text.usb_send_in_buffe 0x9d006cb0           0x88         136   
+.text.cdc_send_hex_sid  0x9d006d38           0x84         132   
+.text.app_set_configura 0x9d006dbc           0x80         128   
+.text.usb_get_out_buffe 0x9d006e3c           0x80         128   
+.text                   0x9d006ebc           0x7c         124  App's exec code 
+.text.cdc_send_hex_byte 0x9d006f38           0x74         116   
+.text.usb_application_g 0x9d006fac           0x74         116   
+.text.can_configure     0x9d007020           0x74         116   
+.text.usb_halt_ep_out   0x9d007094           0x6c         108   
+.text.memmove           0x9d007100           0x68         104   
+.text.usb_get_in_buffer 0x9d007168           0x60          96   
+.text.gvret_init        0x9d0071c8           0x60          96   
+.text.usb_halt_ep_in    0x9d007228           0x5c          92   
+.text.gvret_buffer_resp 0x9d007284           0x5c          92   
+.text.usb_start_receive 0x9d0072e0           0x58          88   
+.text.app_set_control_l 0x9d007338           0x54          84   
+.text.main_entry        0x9d00738c           0x54          84   
+.text.app_usb_reset_cal 0x9d0073e0           0x50          80   
+.text.stall_ep_in       0x9d007430           0x50          80   
+.text.copy_to_ep0_in_bu 0x9d007480           0x50          80   
+.text.gvret_flush_if_ne 0x9d0074d0           0x4c          76   
+.text._bootstrap_except 0x9d00751c           0x48          72   
+.text._general_exceptio 0x9d007564           0x48          72   
+.vector_default         0x9d0075ac           0x48          72   
+.rodata.configuration_1 0x9d0075f4           0x46          70   
+.text                   0x9d00763c           0x44          68  App's exec code 
+.text.can_rx_available  0x9d007680           0x3c          60   
+.text.send_zero_length_ 0x9d0076bc           0x38          56   
+.text.delay_ms          0x9d0076f4           0x34          52   
+.text.app_in_transactio 0x9d007728           0x34          52   
+.text.stall_ep0         0x9d00775c           0x30          48   
+.text.set_line_coding   0x9d00778c           0x30          48   
+.text.gvret_get_timesta 0x9d0077bc           0x2c          44   
+.text.memcpy            0x9d0077e8           0x2c          44   
+.text.strlen            0x9d007814           0x2c          44   
+.text.app_get_line_codi 0x9d007840           0x28          40   
+.text.memset            0x9d007868           0x28          40   
+.rodata.product_string  0x9d007890           0x24          36   
+.text.usb_in_endpoint_h 0x9d0078b4           0x24          36   
+.text.usb_send_data_sta 0x9d0078d8           0x24          36   
+.text.gvret_buffer_byte 0x9d0078fc           0x24          36   
+.text.app_unknown_setup 0x9d007920           0x20          32   
+.text                   0x9d007940           0x20          32  App's exec code 
+.MIPS.abiflags          0x9d007960           0x18          24   
+.text                   0x9d007978           0x30          48  App's exec code 
+.rodata.vendor_string   0x9d0079a8           0x14          20   
+.text.reset_ep0_data_st 0x9d0079bc           0x14          20   
+.rodata                 0x9d0079d0           0x14          20  Read-only const 
+.rodata.serial_string   0x9d0079e4           0x12          18   
+.rodata.this_device_des 0x9d0079f8           0x12          18   
+.text.app_get_device_st 0x9d007a0c            0x8           8   
+.text.app_endpoint_halt 0x9d007a14            0x8           8   
+.text.app_set_interface 0x9d007a1c            0x8           8   
+.text.app_get_interface 0x9d007a24            0x8           8   
+.text.app_unknown_get_d 0x9d007a2c            0x8           8   
+.text.app_start_of_fram 0x9d007a34            0x8           8   
+.text.app_set_line_codi 0x9d007a3c            0x8           8   
+.text.usb_get_configura 0x9d007a44            0x8           8   
+.text._on_reset         0x9d007a4c            0x8           8   
+.text._on_bootstrap     0x9d007a54            0x8           8   
+.rodata.str00           0x9d007a5c            0x4           4   
+      Total kseg0_program_mem used  :      0x7a59       31321  6.0% of 0x80000
 
 kseg0 Boot-Memory Usage
 section                    address  length [bytes]      (dec)  Description
@@ -313,7 +313,7 @@ section                    address  length [bytes]      (dec)  Description
 .bev_excpt              0xbfc00380           0x10          16  BEV-Exception 
          Total kseg1_boot_mem used  :       0x1ac         428  36.6% of 0x490
         --------------------------------------------------------------------------
-         Total Program Memory used  :      0x7db9       32185  6.1% of 0x81e00
+         Total Program Memory used  :      0x7db5       32181  6.0% of 0x81e00
         --------------------------------------------------------------------------
 
 
@@ -345,11 +345,11 @@ Microchip PIC32 Memory-Usage Report By Module
 
         text        data         bss         dec         hex    basename                                 filename
 --------------------------------------------------------------------------------
-       16547           1        3173       19721        4d09    main.o                               build/default/production/main.o
+       16543           1        3173       19717        4d05    main.o                               build/default/production/main.o
         4328           0        2330        6658        1a02    can_driver.o                         build/default/production/can_driver.o
         5464          80         668        6212        1844    usb.o                                build/default/production/usb/usb.o
         2948           0           0        2948         b84    gvret.o                              build/default/production/gvret.o
-         528           0           0         528         210    ccPZkICg.o                           D:\Users\diego\AppData\Local\Temp\ccPZkICg.o
+         528           0           0         528         210    cc0HYpKj.o                           D:\Users\diego\AppData\Local\Temp\cc0HYpKj.o
          368           0           8         376         178    usb_cdc.o                            build/default/production/usb/usb_cdc.o
          368           0           0         368         170    data_init                            data_init
          282           4           0         286         11e    usb_descriptors.o                    build/default/production/usb_descriptors.o
@@ -420,7 +420,7 @@ Microchip PIC32 Memory-Usage Report By Module
            8           0           0           8           8    vector50.o                           libpic32.a
            0           0           0        6674        1a12    padding                              padding
 --------------------------------------------------------------------------------
-       32245          85        6179       45183        b07f    dist/default/production/Canalysis.X.production.elf
+       32241          85        6179       45179        b07b    dist/default/production/Canalysis.X.production.elf
 
 
 Discarded input sections
@@ -494,28 +494,28 @@ Discarded input sections
                 0x00000000       0x2c build/default/production/can_driver.o
  .text.can_get_config
                 0x00000000       0x3c build/default/production/can_driver.o
- .text          0x00000000        0x0 D:\Users\diego\AppData\Local\Temp\ccPZkICg.o
- .data          0x00000000        0x0 D:\Users\diego\AppData\Local\Temp\ccPZkICg.o
- .bss           0x00000000        0x0 D:\Users\diego\AppData\Local\Temp\ccPZkICg.o
- .reginfo       0x00000000       0x18 D:\Users\diego\AppData\Local\Temp\ccPZkICg.o
+ .text          0x00000000        0x0 D:\Users\diego\AppData\Local\Temp\cc0HYpKj.o
+ .data          0x00000000        0x0 D:\Users\diego\AppData\Local\Temp\cc0HYpKj.o
+ .bss           0x00000000        0x0 D:\Users\diego\AppData\Local\Temp\cc0HYpKj.o
+ .reginfo       0x00000000       0x18 D:\Users\diego\AppData\Local\Temp\cc0HYpKj.o
  .MIPS.abiflags
-                0x00000000       0x18 D:\Users\diego\AppData\Local\Temp\ccPZkICg.o
- .pdr           0x00000000       0xa0 D:\Users\diego\AppData\Local\Temp\ccPZkICg.o
- .text          0x00000000        0x0 D:\Users\diego\AppData\Local\Temp\cc9I27jq.o
- .data          0x00000000        0x0 D:\Users\diego\AppData\Local\Temp\cc9I27jq.o
- .bss           0x00000000        0x0 D:\Users\diego\AppData\Local\Temp\cc9I27jq.o
- .reginfo       0x00000000       0x18 D:\Users\diego\AppData\Local\Temp\cc9I27jq.o
+                0x00000000       0x18 D:\Users\diego\AppData\Local\Temp\cc0HYpKj.o
+ .pdr           0x00000000       0xa0 D:\Users\diego\AppData\Local\Temp\cc0HYpKj.o
+ .text          0x00000000        0x0 D:\Users\diego\AppData\Local\Temp\ccDdZqDy.o
+ .data          0x00000000        0x0 D:\Users\diego\AppData\Local\Temp\ccDdZqDy.o
+ .bss           0x00000000        0x0 D:\Users\diego\AppData\Local\Temp\ccDdZqDy.o
+ .reginfo       0x00000000       0x18 D:\Users\diego\AppData\Local\Temp\ccDdZqDy.o
  .MIPS.abiflags
-                0x00000000       0x18 D:\Users\diego\AppData\Local\Temp\cc9I27jq.o
- .pdr           0x00000000        0x0 D:\Users\diego\AppData\Local\Temp\cc9I27jq.o
- .text          0x00000000        0x0 D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o
- .data          0x00000000        0x0 D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o
- .bss           0x00000000        0x0 D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o
- .reginfo       0x00000000       0x18 D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o
+                0x00000000       0x18 D:\Users\diego\AppData\Local\Temp\ccDdZqDy.o
+ .pdr           0x00000000        0x0 D:\Users\diego\AppData\Local\Temp\ccDdZqDy.o
+ .text          0x00000000        0x0 D:\Users\diego\AppData\Local\Temp\cca20UlV.o
+ .data          0x00000000        0x0 D:\Users\diego\AppData\Local\Temp\cca20UlV.o
+ .bss           0x00000000        0x0 D:\Users\diego\AppData\Local\Temp\cca20UlV.o
+ .reginfo       0x00000000       0x18 D:\Users\diego\AppData\Local\Temp\cca20UlV.o
  .MIPS.abiflags
-                0x00000000       0x18 D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o
- .pdr           0x00000000        0x0 D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o
- .discard       0x00000000       0xd0 D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o
+                0x00000000       0x18 D:\Users\diego\AppData\Local\Temp\cca20UlV.o
+ .pdr           0x00000000        0x0 D:\Users\diego\AppData\Local\Temp\cca20UlV.o
+ .discard       0x00000000       0xd0 D:\Users\diego\AppData\Local\Temp\cca20UlV.o
  .text          0x00000000        0x0 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\debug-exception-return.o
  .data          0x00000000        0x0 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\debug-exception-return.o
  .bss           0x00000000        0x0 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\debug-exception-return.o
@@ -1262,9 +1262,9 @@ LOAD build/default/production/gvret.o
 LOAD build/default/production/can_driver.o
                 0x00000001                        __MPLAB_BUILD = 0x1
                 0x00000000                        _min_heap_size = 0x0
-LOAD D:\Users\diego\AppData\Local\Temp\ccPZkICg.o
-LOAD D:\Users\diego\AppData\Local\Temp\cc9I27jq.o
-LOAD D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o
+LOAD D:\Users\diego\AppData\Local\Temp\cc0HYpKj.o
+LOAD D:\Users\diego\AppData\Local\Temp\ccDdZqDy.o
+LOAD D:\Users\diego\AppData\Local\Temp\cca20UlV.o
 LOAD C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\debug-exception-return.o
 LOAD C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\pic32_software_reset.o
 LOAD C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1\libgcc.a
@@ -1326,16 +1326,16 @@ END GROUP
 
 .reset          0xbfc00000      0x19c
  *(.reset)
- .reset         0xbfc00000        0x8 D:\Users\diego\AppData\Local\Temp\ccPZkICg.o
+ .reset         0xbfc00000        0x8 D:\Users\diego\AppData\Local\Temp\cc0HYpKj.o
                 0xbfc00000                _reset
  *(.reset.startup)
  .reset.startup
-                0xbfc00008      0x194 D:\Users\diego\AppData\Local\Temp\ccPZkICg.o
+                0xbfc00008      0x194 D:\Users\diego\AppData\Local\Temp\cc0HYpKj.o
                 0xbfc00008                _startup
 
 .bev_excpt      0xbfc00380       0x10
  *(.bev_handler)
- .bev_handler   0xbfc00380       0x10 D:\Users\diego\AppData\Local\Temp\ccPZkICg.o
+ .bev_handler   0xbfc00380       0x10 D:\Users\diego\AppData\Local\Temp\cc0HYpKj.o
 
 .dbg_excpt      0xbfc00480        0x0
                 0xbfc00480                        . = (. + DEFINED (_DEBUGGER)?0x8:0x0)
@@ -1345,7 +1345,7 @@ END GROUP
 
 .app_excpt      0x9fc01180       0x10
  *(.gen_handler)
- .gen_handler   0x9fc01180       0x10 D:\Users\diego\AppData\Local\Temp\ccPZkICg.o
+ .gen_handler   0x9fc01180       0x10 D:\Users\diego\AppData\Local\Temp\cc0HYpKj.o
 
 .vector_0       0x9fc01200        0x8
  *(.vector_0)
@@ -2077,24 +2077,24 @@ END GROUP
  *.elf(.debug_pubnames)
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0xcc50
+.debug_info     0x00000000     0xcc32
  *.elf(.debug_info .gnu.linkonce.wi.*)
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000     0x5915 build/default/production/main.o
- .debug_info    0x00005915      0x85e build/default/production/usb_descriptors.o
- .debug_info    0x00006173     0x2c2c build/default/production/usb/usb.o
- .debug_info    0x00008d9f      0x4b4 build/default/production/usb/usb_cdc.o
- .debug_info    0x00009253      0xdaa build/default/production/gvret.o
- .debug_info    0x00009ffd     0x26f3 build/default/production/can_driver.o
- .debug_info    0x0000c6f0       0x72 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-bootstrap-exception-handler.o)
- .debug_info    0x0000c762       0x40 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-on-reset.o)
- .debug_info    0x0000c7a2       0x40 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-on-bootstrap.o)
- .debug_info    0x0000c7e2       0x72 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-general-exception-handler.o)
- .debug_info    0x0000c854       0x9b C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(defaultinterrupt.o)
- .debug_info    0x0000c8ef       0xff C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(memcpy.o)
- .debug_info    0x0000c9ee       0xf6 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(memmove.o)
- .debug_info    0x0000cae4       0xc8 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(memset.o)
- .debug_info    0x0000cbac       0xa4 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(strlen.o)
+ .debug_info    0x00000000     0x58f7 build/default/production/main.o
+ .debug_info    0x000058f7      0x85e build/default/production/usb_descriptors.o
+ .debug_info    0x00006155     0x2c2c build/default/production/usb/usb.o
+ .debug_info    0x00008d81      0x4b4 build/default/production/usb/usb_cdc.o
+ .debug_info    0x00009235      0xdaa build/default/production/gvret.o
+ .debug_info    0x00009fdf     0x26f3 build/default/production/can_driver.o
+ .debug_info    0x0000c6d2       0x72 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_info    0x0000c744       0x40 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-on-reset.o)
+ .debug_info    0x0000c784       0x40 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-on-bootstrap.o)
+ .debug_info    0x0000c7c4       0x72 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-general-exception-handler.o)
+ .debug_info    0x0000c836       0x9b C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(defaultinterrupt.o)
+ .debug_info    0x0000c8d1       0xff C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(memcpy.o)
+ .debug_info    0x0000c9d0       0xf6 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(memmove.o)
+ .debug_info    0x0000cac6       0xc8 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(memset.o)
+ .debug_info    0x0000cb8e       0xa4 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(strlen.o)
 
 .debug_abbrev   0x00000000     0x1bca
  *.elf(.debug_abbrev)
@@ -2115,24 +2115,24 @@ END GROUP
  .debug_abbrev  0x00001aa8       0x91 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(memset.o)
  .debug_abbrev  0x00001b39       0x91 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(strlen.o)
 
-.debug_line     0x00000000     0x52dc
+.debug_line     0x00000000     0x52cd
  *.elf(.debug_line)
  *(.debug_line)
- .debug_line    0x00000000     0x2147 build/default/production/main.o
- .debug_line    0x00002147      0x11a build/default/production/usb_descriptors.o
- .debug_line    0x00002261      0xf6e build/default/production/usb/usb.o
- .debug_line    0x000031cf      0x171 build/default/production/usb/usb_cdc.o
- .debug_line    0x00003340      0x972 build/default/production/gvret.o
- .debug_line    0x00003cb2      0xc7e build/default/production/can_driver.o
- .debug_line    0x00004930       0xe2 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-bootstrap-exception-handler.o)
- .debug_line    0x00004a12       0xa5 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-on-reset.o)
- .debug_line    0x00004ab7       0xa9 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-on-bootstrap.o)
- .debug_line    0x00004b60       0xe0 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-general-exception-handler.o)
- .debug_line    0x00004c40       0xd3 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(defaultinterrupt.o)
- .debug_line    0x00004d13      0x16d C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(memcpy.o)
- .debug_line    0x00004e80      0x199 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(memmove.o)
- .debug_line    0x00005019      0x164 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(memset.o)
- .debug_line    0x0000517d      0x15f C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(strlen.o)
+ .debug_line    0x00000000     0x2138 build/default/production/main.o
+ .debug_line    0x00002138      0x11a build/default/production/usb_descriptors.o
+ .debug_line    0x00002252      0xf6e build/default/production/usb/usb.o
+ .debug_line    0x000031c0      0x171 build/default/production/usb/usb_cdc.o
+ .debug_line    0x00003331      0x972 build/default/production/gvret.o
+ .debug_line    0x00003ca3      0xc7e build/default/production/can_driver.o
+ .debug_line    0x00004921       0xe2 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_line    0x00004a03       0xa5 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-on-reset.o)
+ .debug_line    0x00004aa8       0xa9 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-on-bootstrap.o)
+ .debug_line    0x00004b51       0xe0 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-general-exception-handler.o)
+ .debug_line    0x00004c31       0xd3 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(defaultinterrupt.o)
+ .debug_line    0x00004d04      0x16d C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(memcpy.o)
+ .debug_line    0x00004e71      0x199 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(memmove.o)
+ .debug_line    0x0000500a      0x164 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(memset.o)
+ .debug_line    0x0000516e      0x15f C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(strlen.o)
 
 .debug_frame    0x00000000      0xb34
  *.elf(.debug_frame)
@@ -2153,25 +2153,25 @@ END GROUP
  .debug_frame   0x00000af4       0x20 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(memset.o)
  .debug_frame   0x00000b14       0x20 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(strlen.o)
 
-.debug_str      0x00000000     0x3561
+.debug_str      0x00000000     0x3555
  *.elf(.debug_str)
  *(.debug_str)
- .debug_str     0x00000000     0x3561 build/default/production/main.o
-                               0x18d3 (size before relaxing)
- .debug_str     0x00003561      0xa4e build/default/production/usb_descriptors.o
- .debug_str     0x00003561     0x147b build/default/production/usb/usb.o
- .debug_str     0x00003561      0x59d build/default/production/usb/usb_cdc.o
- .debug_str     0x00003561      0x7de build/default/production/gvret.o
- .debug_str     0x00003561      0xe52 build/default/production/can_driver.o
- .debug_str     0x00003561      0x318 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-bootstrap-exception-handler.o)
- .debug_str     0x00003561      0x2b7 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-on-reset.o)
- .debug_str     0x00003561      0x2bf C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-on-bootstrap.o)
- .debug_str     0x00003561      0x314 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-general-exception-handler.o)
- .debug_str     0x00003561      0x349 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(defaultinterrupt.o)
- .debug_str     0x00003561      0x276 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(memcpy.o)
- .debug_str     0x00003561      0x27d C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(memmove.o)
- .debug_str     0x00003561      0x262 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(memset.o)
- .debug_str     0x00003561      0x251 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(strlen.o)
+ .debug_str     0x00000000     0x3555 build/default/production/main.o
+                               0x18c7 (size before relaxing)
+ .debug_str     0x00003555      0xa4e build/default/production/usb_descriptors.o
+ .debug_str     0x00003555     0x147b build/default/production/usb/usb.o
+ .debug_str     0x00003555      0x59d build/default/production/usb/usb_cdc.o
+ .debug_str     0x00003555      0x7de build/default/production/gvret.o
+ .debug_str     0x00003555      0xe52 build/default/production/can_driver.o
+ .debug_str     0x00003555      0x318 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_str     0x00003555      0x2b7 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-on-reset.o)
+ .debug_str     0x00003555      0x2bf C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-on-bootstrap.o)
+ .debug_str     0x00003555      0x314 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-general-exception-handler.o)
+ .debug_str     0x00003555      0x349 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(defaultinterrupt.o)
+ .debug_str     0x00003555      0x276 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(memcpy.o)
+ .debug_str     0x00003555      0x27d C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(memmove.o)
+ .debug_str     0x00003555      0x262 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(memset.o)
+ .debug_str     0x00003555      0x251 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(strlen.o)
 
 .debug_loc      0x00000000     0x41d4
  *.elf(.debug_loc)
@@ -2250,11 +2250,11 @@ END GROUP
  .gnu.attributes
                 0x00000050       0x10 build/default/production/can_driver.o
  .gnu.attributes
-                0x00000060       0x10 D:\Users\diego\AppData\Local\Temp\ccPZkICg.o
+                0x00000060       0x10 D:\Users\diego\AppData\Local\Temp\cc0HYpKj.o
  .gnu.attributes
-                0x00000070       0x10 D:\Users\diego\AppData\Local\Temp\cc9I27jq.o
+                0x00000070       0x10 D:\Users\diego\AppData\Local\Temp\ccDdZqDy.o
  .gnu.attributes
-                0x00000080       0x10 D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o
+                0x00000080       0x10 D:\Users\diego\AppData\Local\Temp\cca20UlV.o
  .gnu.attributes
                 0x00000090       0x10 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\debug-exception-return.o
  .gnu.attributes
@@ -2404,9 +2404,9 @@ LOAD data_init
  .note          0x000001a4       0x18 build/default/production/usb/usb_cdc.o
  .note          0x000001bc       0x18 build/default/production/gvret.o
  .note          0x000001d4       0x70 build/default/production/can_driver.o
- .note          0x00000244       0x18 D:\Users\diego\AppData\Local\Temp\ccPZkICg.o
- .note          0x0000025c       0x18 D:\Users\diego\AppData\Local\Temp\cc9I27jq.o
- .note          0x00000274       0x18 D:\Users\diego\AppData\Local\Temp\ccJU6BYG.o
+ .note          0x00000244       0x18 D:\Users\diego\AppData\Local\Temp\cc0HYpKj.o
+ .note          0x0000025c       0x18 D:\Users\diego\AppData\Local\Temp\ccDdZqDy.o
+ .note          0x00000274       0x18 D:\Users\diego\AppData\Local\Temp\cca20UlV.o
  .note          0x0000028c       0x48 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\debug-exception-return.o
  .note          0x000002d4       0x18 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\pic32_software_reset.o
  .note          0x000002ec       0x18 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-bootstrap-exception-handler.o)
@@ -2539,562 +2539,562 @@ LOAD data_init
                 0xbfc00480       0x2c C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\debug-exception-return.o
                 0xbfc00480                __DbgExecReturn
 
-.text.main      0x9d000000      0xb84
- .text.main     0x9d000000      0xb84 build/default/production/main.o
+.text.main      0x9d000000      0xb80
+ .text.main     0x9d000000      0xb80 build/default/production/main.o
                 0x9d000000                main
 
 .rodata.cdc_send_number.str1.4
-                0x9d000b84      0xb47
+                0x9d000b80      0xb47
  .rodata.cdc_send_number.str1.4
-                0x9d000b84      0xb47 build/default/production/main.o
+                0x9d000b80      0xb47 build/default/production/main.o
                                   0x2 (size before relaxing)
 
 .text.usb_service
-                0x9d0016cc      0xa90
+                0x9d0016c8      0xa90
  .text.usb_service
-                0x9d0016cc      0xa90 build/default/production/usb/usb.o
-                0x9d0016cc                usb_service
+                0x9d0016c8      0xa90 build/default/production/usb/usb.o
+                0x9d0016c8                usb_service
 
 .text.can_enable
-                0x9d00215c      0x84c
+                0x9d002158      0x84c
  .text.can_enable
-                0x9d00215c      0x84c build/default/production/can_driver.o
-                0x9d00215c                can_enable
+                0x9d002158      0x84c build/default/production/can_driver.o
+                0x9d002158                can_enable
 
 .text.run_loopback_test
-                0x9d0029a8      0x6e0
+                0x9d0029a4      0x6e0
  .text.run_loopback_test
-                0x9d0029a8      0x6e0 build/default/production/main.o
-                0x9d0029a8                run_loopback_test
+                0x9d0029a4      0x6e0 build/default/production/main.o
+                0x9d0029a4                run_loopback_test
 
 .text.gvret_process_byte
-                0x9d003088      0x658
+                0x9d003084      0x658
  .text.gvret_process_byte
-                0x9d003088      0x658 build/default/production/gvret.o
-                0x9d003088                gvret_process_byte
+                0x9d003084      0x658 build/default/production/gvret.o
+                0x9d003084                gvret_process_byte
 
 .text.CAN1_Init_Internal
-                0x9d0036e0      0x640
+                0x9d0036dc      0x640
  .text.CAN1_Init_Internal
-                0x9d0036e0      0x640 build/default/production/main.o
-                0x9d0036e0                CAN1_Init_Internal
+                0x9d0036dc      0x640 build/default/production/main.o
+                0x9d0036dc                CAN1_Init_Internal
 
 .text.CAN1_Init_External_RX
-                0x9d003d20      0x310
+                0x9d003d1c      0x310
  .text.CAN1_Init_External_RX
-                0x9d003d20      0x310 build/default/production/main.o
-                0x9d003d20                CAN1_Init_External_RX
+                0x9d003d1c      0x310 build/default/production/main.o
+                0x9d003d1c                CAN1_Init_External_RX
 
 .text.CAN2_Init_Internal
-                0x9d004030      0x2e8
+                0x9d00402c      0x2e8
  .text.CAN2_Init_Internal
-                0x9d004030      0x2e8 build/default/production/main.o
-                0x9d004030                CAN2_Init_Internal
+                0x9d00402c      0x2e8 build/default/production/main.o
+                0x9d00402c                CAN2_Init_Internal
 
 .text.CAN2_Init_External
-                0x9d004318      0x2ac
+                0x9d004314      0x2ac
  .text.CAN2_Init_External
-                0x9d004318      0x2ac build/default/production/main.o
-                0x9d004318                CAN2_Init_External
+                0x9d004314      0x2ac build/default/production/main.o
+                0x9d004314                CAN2_Init_External
 
-.text.can_tx    0x9d0045c4      0x228
- .text.can_tx   0x9d0045c4      0x228 build/default/production/can_driver.o
-                0x9d0045c4                can_tx
+.text.can_tx    0x9d0045c0      0x228
+ .text.can_tx   0x9d0045c0      0x228 build/default/production/can_driver.o
+                0x9d0045c0                can_tx
 
-.text.usb_init  0x9d0047ec      0x220
+.text.usb_init  0x9d0047e8      0x220
  .text.usb_init
-                0x9d0047ec      0x220 build/default/production/usb/usb.o
-                0x9d0047ec                usb_init
+                0x9d0047e8      0x220 build/default/production/usb/usb.o
+                0x9d0047e8                usb_init
 
 .text.CAN1_Init_External
-                0x9d004a0c      0x214
+                0x9d004a08      0x214
  .text.CAN1_Init_External
-                0x9d004a0c      0x214 build/default/production/main.o
-                0x9d004a0c                CAN1_Init_External
+                0x9d004a08      0x214 build/default/production/main.o
+                0x9d004a08                CAN1_Init_External
 
-.text.CAN1_ISR  0x9d004c20      0x210
+.text.CAN1_ISR  0x9d004c1c      0x210
  .text.CAN1_ISR
-                0x9d004c20      0x210 build/default/production/main.o
-                0x9d004c20                CAN1_ISR
+                0x9d004c1c      0x210 build/default/production/main.o
+                0x9d004c1c                CAN1_ISR
 
 .text.CAN2_Init_External_TX
-                0x9d004e30      0x1fc
+                0x9d004e2c      0x1fc
  .text.CAN2_Init_External_TX
-                0x9d004e30      0x1fc build/default/production/main.o
-                0x9d004e30                CAN2_Init_External_TX
+                0x9d004e2c      0x1fc build/default/production/main.o
+                0x9d004e2c                CAN2_Init_External_TX
 
 .text.can_process_rx
-                0x9d00502c      0x1e4
+                0x9d005028      0x1e4
  .text.can_process_rx
-                0x9d00502c      0x1e4 build/default/production/can_driver.o
-                0x9d00502c                can_process_rx
+                0x9d005028      0x1e4 build/default/production/can_driver.o
+                0x9d005028                can_process_rx
 
 .text.CAN1_SendMessage
-                0x9d005210      0x1d0
+                0x9d00520c      0x1d0
  .text.CAN1_SendMessage
-                0x9d005210      0x1d0 build/default/production/main.o
-                0x9d005210                CAN1_SendMessage
+                0x9d00520c      0x1d0 build/default/production/main.o
+                0x9d00520c                CAN1_SendMessage
 
 .text.CAN2_SendMessage
-                0x9d0053e0      0x1d0
+                0x9d0053dc      0x1d0
  .text.CAN2_SendMessage
-                0x9d0053e0      0x1d0 build/default/production/main.o
-                0x9d0053e0                CAN2_SendMessage
+                0x9d0053dc      0x1d0 build/default/production/main.o
+                0x9d0053dc                CAN2_SendMessage
 
 .text.gvret_handle_build_frame
-                0x9d0055b0      0x194
+                0x9d0055ac      0x194
  .text.gvret_handle_build_frame
-                0x9d0055b0      0x194 build/default/production/gvret.o
+                0x9d0055ac      0x194 build/default/production/gvret.o
 
-.text.CAN2_ISR  0x9d005744      0x188
+.text.CAN2_ISR  0x9d005740      0x188
  .text.CAN2_ISR
-                0x9d005744      0x188 build/default/production/main.o
-                0x9d005744                CAN2_ISR
+                0x9d005740      0x188 build/default/production/main.o
+                0x9d005740                CAN2_ISR
 
-.dinit          0x9d0058cc      0x170
- .dinit         0x9d0058cc      0x170 data_init
+.dinit          0x9d0058c8      0x170
+ .dinit         0x9d0058c8      0x170 data_init
 
 .text.rx_queue_push
-                0x9d005a3c      0x164
+                0x9d005a38      0x164
  .text.rx_queue_push
-                0x9d005a3c      0x164 build/default/production/can_driver.o
+                0x9d005a38      0x164 build/default/production/can_driver.o
 
 .text.init_endpoints
-                0x9d005ba0      0x148
+                0x9d005b9c      0x148
  .text.init_endpoints
-                0x9d005ba0      0x148 build/default/production/usb/usb.o
+                0x9d005b9c      0x148 build/default/production/usb/usb.o
 
 .text.gvret_send_can_frame
-                0x9d005ce8      0x148
+                0x9d005ce4      0x148
  .text.gvret_send_can_frame
-                0x9d005ce8      0x148 build/default/production/gvret.o
-                0x9d005ce8                gvret_send_can_frame
+                0x9d005ce4      0x148 build/default/production/gvret.o
+                0x9d005ce4                gvret_send_can_frame
 
 .text.process_cdc_setup_request
-                0x9d005e30      0x140
+                0x9d005e2c      0x140
  .text.process_cdc_setup_request
-                0x9d005e30      0x140 build/default/production/usb/usb_cdc.o
-                0x9d005e30                process_cdc_setup_request
+                0x9d005e2c      0x140 build/default/production/usb/usb_cdc.o
+                0x9d005e2c                process_cdc_setup_request
 
 .text.app_out_transaction_callback
-                0x9d005f70      0x13c
+                0x9d005f6c      0x13c
  .text.app_out_transaction_callback
-                0x9d005f70      0x13c build/default/production/main.o
-                0x9d005f70                app_out_transaction_callback
+                0x9d005f6c      0x13c build/default/production/main.o
+                0x9d005f6c                app_out_transaction_callback
 
 .text.can_rx_get
-                0x9d0060ac      0x13c
+                0x9d0060a8      0x13c
  .text.can_rx_get
-                0x9d0060ac      0x13c build/default/production/can_driver.o
-                0x9d0060ac                can_rx_get
+                0x9d0060a8      0x13c build/default/production/can_driver.o
+                0x9d0060a8                can_rx_get
 
 .text._USB1Interrupt
-                0x9d0061e8      0x120
+                0x9d0061e4      0x120
  .text._USB1Interrupt
-                0x9d0061e8      0x120 build/default/production/usb/usb.o
-                0x9d0061e8                _USB1Interrupt
+                0x9d0061e4      0x120 build/default/production/usb/usb.o
+                0x9d0061e4                _USB1Interrupt
 
 .text.gvret_flush
-                0x9d006308       0xf8
+                0x9d006304       0xf8
  .text.gvret_flush
-                0x9d006308       0xf8 build/default/production/gvret.o
-                0x9d006308                gvret_flush
+                0x9d006304       0xf8 build/default/production/gvret.o
+                0x9d006304                gvret_flush
 
 .text.send_status_message
-                0x9d006400       0xf4
+                0x9d0063fc       0xf4
  .text.send_status_message
-                0x9d006400       0xf4 build/default/production/main.o
-                0x9d006400                send_status_message
+                0x9d0063fc       0xf4 build/default/production/main.o
+                0x9d0063fc                send_status_message
 
 .text.print_loopback_summary
-                0x9d0064f4       0xf4
+                0x9d0064f0       0xf4
  .text.print_loopback_summary
-                0x9d0064f4       0xf4 build/default/production/main.o
-                0x9d0064f4                print_loopback_summary
+                0x9d0064f0       0xf4 build/default/production/main.o
+                0x9d0064f0                print_loopback_summary
 
 .text.general_exception
-                0x9d0065e8       0xdc
+                0x9d0065e4       0xdc
  .text.general_exception
-                0x9d0065e8       0xdc C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(general-exception.o)
-                0x9d0065e8                _general_exception_context
+                0x9d0065e4       0xdc C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(general-exception.o)
+                0x9d0065e4                _general_exception_context
 
 .text.wait_can_mode
-                0x9d0066c4       0xd4
+                0x9d0066c0       0xd4
  .text.wait_can_mode
-                0x9d0066c4       0xd4 build/default/production/main.o
+                0x9d0066c0       0xd4 build/default/production/main.o
 
 .text.cdc_send_string
-                0x9d006798       0xcc
+                0x9d006794       0xcc
  .text.cdc_send_string
-                0x9d006798       0xcc build/default/production/main.o
-                0x9d006798                cdc_send_string
+                0x9d006794       0xcc build/default/production/main.o
+                0x9d006794                cdc_send_string
 
 .text.cdc_send_number
-                0x9d006864       0xcc
+                0x9d006860       0xcc
  .text.cdc_send_number
-                0x9d006864       0xcc build/default/production/main.o
-                0x9d006864                cdc_send_number
+                0x9d006860       0xcc build/default/production/main.o
+                0x9d006860                cdc_send_number
 
 .text.usb_arm_out_endpoint
-                0x9d006930       0xc8
+                0x9d00692c       0xc8
  .text.usb_arm_out_endpoint
-                0x9d006930       0xc8 build/default/production/usb/usb.o
-                0x9d006930                usb_arm_out_endpoint
+                0x9d00692c       0xc8 build/default/production/usb/usb.o
+                0x9d00692c                usb_arm_out_endpoint
 
 .text.usb_send_in_buffer
-                0x9d0069f8       0xc4
+                0x9d0069f4       0xc4
  .text.usb_send_in_buffer
-                0x9d0069f8       0xc4 build/default/production/usb/usb.o
-                0x9d0069f8                usb_send_in_buffer
+                0x9d0069f4       0xc4 build/default/production/usb/usb.o
+                0x9d0069f4                usb_send_in_buffer
 
 .text.start_control_return
-                0x9d006abc       0xb8
+                0x9d006ab8       0xb8
  .text.start_control_return
-                0x9d006abc       0xb8 build/default/production/usb/usb.o
+                0x9d006ab8       0xb8 build/default/production/usb/usb.o
 
 .text.can_disable
-                0x9d006b74       0xa8
+                0x9d006b70       0xa8
  .text.can_disable
-                0x9d006b74       0xa8 build/default/production/can_driver.o
-                0x9d006b74                can_disable
+                0x9d006b70       0xa8 build/default/production/can_driver.o
+                0x9d006b70                can_disable
 
 .text.can_driver_init
-                0x9d006c1c       0x98
+                0x9d006c18       0x98
  .text.can_driver_init
-                0x9d006c1c       0x98 build/default/production/can_driver.o
-                0x9d006c1c                can_driver_init
+                0x9d006c18       0x98 build/default/production/can_driver.o
+                0x9d006c18                can_driver_init
 
 .text.usb_send_in_buffer_0
-                0x9d006cb4       0x88
+                0x9d006cb0       0x88
  .text.usb_send_in_buffer_0
-                0x9d006cb4       0x88 build/default/production/usb/usb.o
+                0x9d006cb0       0x88 build/default/production/usb/usb.o
 
 .text.cdc_send_hex_sid
-                0x9d006d3c       0x84
+                0x9d006d38       0x84
  .text.cdc_send_hex_sid
-                0x9d006d3c       0x84 build/default/production/main.o
-                0x9d006d3c                cdc_send_hex_sid
+                0x9d006d38       0x84 build/default/production/main.o
+                0x9d006d38                cdc_send_hex_sid
 
 .text.app_set_configuration_callback
-                0x9d006dc0       0x80
+                0x9d006dbc       0x80
  .text.app_set_configuration_callback
-                0x9d006dc0       0x80 build/default/production/main.o
-                0x9d006dc0                app_set_configuration_callback
+                0x9d006dbc       0x80 build/default/production/main.o
+                0x9d006dbc                app_set_configuration_callback
 
 .text.usb_get_out_buffer
-                0x9d006e40       0x80
+                0x9d006e3c       0x80
  .text.usb_get_out_buffer
-                0x9d006e40       0x80 build/default/production/usb/usb.o
-                0x9d006e40                usb_get_out_buffer
+                0x9d006e3c       0x80 build/default/production/usb/usb.o
+                0x9d006e3c                usb_get_out_buffer
 
-.text           0x9d006ec0       0x7c
- .text          0x9d006ec0       0x7c C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(pic32_data_init_core.o)
-                0x9d006ec0                __dinit_copy_val_data
-                0x9d006ec0                __dinit_decompress
-                0x9d006ec0                __dinit_copy_emb
-                0x9d006ec8                __pic32_data_init
+.text           0x9d006ebc       0x7c
+ .text          0x9d006ebc       0x7c C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(pic32_data_init_core.o)
+                0x9d006ebc                __dinit_copy_val_data
+                0x9d006ebc                __dinit_decompress
+                0x9d006ebc                __dinit_copy_emb
+                0x9d006ec4                __pic32_data_init
 
 .text.cdc_send_hex_byte
-                0x9d006f3c       0x74
+                0x9d006f38       0x74
  .text.cdc_send_hex_byte
-                0x9d006f3c       0x74 build/default/production/main.o
-                0x9d006f3c                cdc_send_hex_byte
+                0x9d006f38       0x74 build/default/production/main.o
+                0x9d006f38                cdc_send_hex_byte
 
 .text.usb_application_get_string
-                0x9d006fb0       0x74
+                0x9d006fac       0x74
  .text.usb_application_get_string
-                0x9d006fb0       0x74 build/default/production/usb_descriptors.o
-                0x9d006fb0                usb_application_get_string
+                0x9d006fac       0x74 build/default/production/usb_descriptors.o
+                0x9d006fac                usb_application_get_string
 
 .text.can_configure
-                0x9d007024       0x74
+                0x9d007020       0x74
  .text.can_configure
-                0x9d007024       0x74 build/default/production/can_driver.o
-                0x9d007024                can_configure
+                0x9d007020       0x74 build/default/production/can_driver.o
+                0x9d007020                can_configure
 
 .text.usb_halt_ep_out
-                0x9d007098       0x6c
+                0x9d007094       0x6c
  .text.usb_halt_ep_out
-                0x9d007098       0x6c build/default/production/usb/usb.o
-                0x9d007098                usb_halt_ep_out
+                0x9d007094       0x6c build/default/production/usb/usb.o
+                0x9d007094                usb_halt_ep_out
 
-.text.memmove   0x9d007104       0x68
- .text.memmove  0x9d007104       0x68 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(memmove.o)
-                0x9d007104                memmove
+.text.memmove   0x9d007100       0x68
+ .text.memmove  0x9d007100       0x68 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(memmove.o)
+                0x9d007100                memmove
 
 .text.usb_get_in_buffer
-                0x9d00716c       0x60
+                0x9d007168       0x60
  .text.usb_get_in_buffer
-                0x9d00716c       0x60 build/default/production/usb/usb.o
-                0x9d00716c                usb_get_in_buffer
+                0x9d007168       0x60 build/default/production/usb/usb.o
+                0x9d007168                usb_get_in_buffer
 
 .text.gvret_init
-                0x9d0071cc       0x60
+                0x9d0071c8       0x60
  .text.gvret_init
-                0x9d0071cc       0x60 build/default/production/gvret.o
-                0x9d0071cc                gvret_init
+                0x9d0071c8       0x60 build/default/production/gvret.o
+                0x9d0071c8                gvret_init
 
 .text.usb_halt_ep_in
-                0x9d00722c       0x5c
+                0x9d007228       0x5c
  .text.usb_halt_ep_in
-                0x9d00722c       0x5c build/default/production/usb/usb.o
-                0x9d00722c                usb_halt_ep_in
+                0x9d007228       0x5c build/default/production/usb/usb.o
+                0x9d007228                usb_halt_ep_in
 
 .text.gvret_buffer_response
-                0x9d007288       0x5c
+                0x9d007284       0x5c
  .text.gvret_buffer_response
-                0x9d007288       0x5c build/default/production/gvret.o
+                0x9d007284       0x5c build/default/production/gvret.o
 
 .text.usb_start_receive_ep0_data_stage
-                0x9d0072e4       0x58
+                0x9d0072e0       0x58
  .text.usb_start_receive_ep0_data_stage
-                0x9d0072e4       0x58 build/default/production/usb/usb.o
-                0x9d0072e4                usb_start_receive_ep0_data_stage
+                0x9d0072e0       0x58 build/default/production/usb/usb.o
+                0x9d0072e0                usb_start_receive_ep0_data_stage
 
 .text.app_set_control_line_state_callback
-                0x9d00733c       0x54
+                0x9d007338       0x54
  .text.app_set_control_line_state_callback
-                0x9d00733c       0x54 build/default/production/main.o
-                0x9d00733c                app_set_control_line_state_callback
+                0x9d007338       0x54 build/default/production/main.o
+                0x9d007338                app_set_control_line_state_callback
 
 .text.main_entry
-                0x9d007390       0x54
+                0x9d00738c       0x54
  .text.main_entry
-                0x9d007390       0x54 D:\Users\diego\AppData\Local\Temp\ccPZkICg.o
-                0x9d0073c4                __crt0_exit
+                0x9d00738c       0x54 D:\Users\diego\AppData\Local\Temp\cc0HYpKj.o
+                0x9d0073c0                __crt0_exit
 
 .text.app_usb_reset_callback
-                0x9d0073e4       0x50
+                0x9d0073e0       0x50
  .text.app_usb_reset_callback
-                0x9d0073e4       0x50 build/default/production/main.o
-                0x9d0073e4                app_usb_reset_callback
+                0x9d0073e0       0x50 build/default/production/main.o
+                0x9d0073e0                app_usb_reset_callback
 
 .text.stall_ep_in
-                0x9d007434       0x50
+                0x9d007430       0x50
  .text.stall_ep_in
-                0x9d007434       0x50 build/default/production/usb/usb.o
+                0x9d007430       0x50 build/default/production/usb/usb.o
 
 .text.copy_to_ep0_in_buf
-                0x9d007484       0x50
+                0x9d007480       0x50
  .text.copy_to_ep0_in_buf
-                0x9d007484       0x50 build/default/production/usb/usb.o
+                0x9d007480       0x50 build/default/production/usb/usb.o
 
 .text.gvret_flush_if_needed
-                0x9d0074d4       0x4c
+                0x9d0074d0       0x4c
  .text.gvret_flush_if_needed
-                0x9d0074d4       0x4c build/default/production/gvret.o
-                0x9d0074d4                gvret_flush_if_needed
+                0x9d0074d0       0x4c build/default/production/gvret.o
+                0x9d0074d0                gvret_flush_if_needed
 
 .text._bootstrap_exception_handler
-                0x9d007520       0x48
+                0x9d00751c       0x48
  .text._bootstrap_exception_handler
-                0x9d007520       0x48 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-bootstrap-exception-handler.o)
-                0x9d007520                _bootstrap_exception_handler
+                0x9d00751c       0x48 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-bootstrap-exception-handler.o)
+                0x9d00751c                _bootstrap_exception_handler
 
 .text._general_exception_handler
-                0x9d007568       0x48
+                0x9d007564       0x48
  .text._general_exception_handler
-                0x9d007568       0x48 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-general-exception-handler.o)
-                0x9d007568                _general_exception_handler
+                0x9d007564       0x48 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-general-exception-handler.o)
+                0x9d007564                _general_exception_handler
 
 .vector_default
-                0x9d0075b0       0x48
+                0x9d0075ac       0x48
  .vector_default
-                0x9d0075b0       0x48 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(defaultinterrupt.o)
-                0x9d0075b0                _DefaultInterrupt
+                0x9d0075ac       0x48 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(defaultinterrupt.o)
+                0x9d0075ac                _DefaultInterrupt
 
 .rodata.configuration_1
-                0x9d0075f8       0x46
+                0x9d0075f4       0x46
  .rodata.configuration_1
-                0x9d0075f8       0x46 build/default/production/usb_descriptors.o
+                0x9d0075f4       0x46 build/default/production/usb_descriptors.o
 
-.text           0x9d007640       0x44
- .text          0x9d007640       0x44 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\pic32_software_reset.o
-                0x9d007640                __pic32_software_reset
+.text           0x9d00763c       0x44
+ .text          0x9d00763c       0x44 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\pic32_software_reset.o
+                0x9d00763c                __pic32_software_reset
 
 .text.can_rx_available
-                0x9d007684       0x3c
+                0x9d007680       0x3c
  .text.can_rx_available
-                0x9d007684       0x3c build/default/production/can_driver.o
-                0x9d007684                can_rx_available
+                0x9d007680       0x3c build/default/production/can_driver.o
+                0x9d007680                can_rx_available
 
 .text.send_zero_length_packet_ep0
-                0x9d0076c0       0x38
+                0x9d0076bc       0x38
  .text.send_zero_length_packet_ep0
-                0x9d0076c0       0x38 build/default/production/usb/usb.o
+                0x9d0076bc       0x38 build/default/production/usb/usb.o
 
-.text.delay_ms  0x9d0076f8       0x34
+.text.delay_ms  0x9d0076f4       0x34
  .text.delay_ms
-                0x9d0076f8       0x34 build/default/production/main.o
-                0x9d0076f8                delay_ms
+                0x9d0076f4       0x34 build/default/production/main.o
+                0x9d0076f4                delay_ms
 
 .text.app_in_transaction_complete_callback
-                0x9d00772c       0x34
+                0x9d007728       0x34
  .text.app_in_transaction_complete_callback
-                0x9d00772c       0x34 build/default/production/main.o
-                0x9d00772c                app_in_transaction_complete_callback
+                0x9d007728       0x34 build/default/production/main.o
+                0x9d007728                app_in_transaction_complete_callback
 
 .text.stall_ep0
-                0x9d007760       0x30
+                0x9d00775c       0x30
  .text.stall_ep0
-                0x9d007760       0x30 build/default/production/usb/usb.o
+                0x9d00775c       0x30 build/default/production/usb/usb.o
 
 .text.set_line_coding
-                0x9d007790       0x30
+                0x9d00778c       0x30
  .text.set_line_coding
-                0x9d007790       0x30 build/default/production/usb/usb_cdc.o
+                0x9d00778c       0x30 build/default/production/usb/usb_cdc.o
 
 .text.gvret_get_timestamp
-                0x9d0077c0       0x2c
+                0x9d0077bc       0x2c
  .text.gvret_get_timestamp
-                0x9d0077c0       0x2c build/default/production/gvret.o
-                0x9d0077c0                gvret_get_timestamp
+                0x9d0077bc       0x2c build/default/production/gvret.o
+                0x9d0077bc                gvret_get_timestamp
 
-.text.memcpy    0x9d0077ec       0x2c
- .text.memcpy   0x9d0077ec       0x2c C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(memcpy.o)
-                0x9d0077ec                memcpy
+.text.memcpy    0x9d0077e8       0x2c
+ .text.memcpy   0x9d0077e8       0x2c C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(memcpy.o)
+                0x9d0077e8                memcpy
 
-.text.strlen    0x9d007818       0x2c
- .text.strlen   0x9d007818       0x2c C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(strlen.o)
-                0x9d007818                strlen
+.text.strlen    0x9d007814       0x2c
+ .text.strlen   0x9d007814       0x2c C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(strlen.o)
+                0x9d007814                strlen
 
 .text.app_get_line_coding_callback
-                0x9d007844       0x28
+                0x9d007840       0x28
  .text.app_get_line_coding_callback
-                0x9d007844       0x28 build/default/production/main.o
-                0x9d007844                app_get_line_coding_callback
+                0x9d007840       0x28 build/default/production/main.o
+                0x9d007840                app_get_line_coding_callback
 
-.text.memset    0x9d00786c       0x28
- .text.memset   0x9d00786c       0x28 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(memset.o)
-                0x9d00786c                memset
+.text.memset    0x9d007868       0x28
+ .text.memset   0x9d007868       0x28 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libc-size-musl.a(memset.o)
+                0x9d007868                memset
 
 .rodata.product_string
-                0x9d007894       0x24
+                0x9d007890       0x24
  .rodata.product_string
-                0x9d007894       0x24 build/default/production/usb_descriptors.o
+                0x9d007890       0x24 build/default/production/usb_descriptors.o
 
 .text.usb_in_endpoint_halted
-                0x9d0078b8       0x24
+                0x9d0078b4       0x24
  .text.usb_in_endpoint_halted
-                0x9d0078b8       0x24 build/default/production/usb/usb.o
-                0x9d0078b8                usb_in_endpoint_halted
+                0x9d0078b4       0x24 build/default/production/usb/usb.o
+                0x9d0078b4                usb_in_endpoint_halted
 
 .text.usb_send_data_stage
-                0x9d0078dc       0x24
+                0x9d0078d8       0x24
  .text.usb_send_data_stage
-                0x9d0078dc       0x24 build/default/production/usb/usb.o
-                0x9d0078dc                usb_send_data_stage
+                0x9d0078d8       0x24 build/default/production/usb/usb.o
+                0x9d0078d8                usb_send_data_stage
 
 .text.gvret_buffer_byte
-                0x9d007900       0x24
+                0x9d0078fc       0x24
  .text.gvret_buffer_byte
-                0x9d007900       0x24 build/default/production/gvret.o
+                0x9d0078fc       0x24 build/default/production/gvret.o
 
 .text.app_unknown_setup_request_callback
-                0x9d007924       0x20
+                0x9d007920       0x20
  .text.app_unknown_setup_request_callback
-                0x9d007924       0x20 build/default/production/main.o
-                0x9d007924                app_unknown_setup_request_callback
+                0x9d007920       0x20 build/default/production/main.o
+                0x9d007920                app_unknown_setup_request_callback
 
-.text           0x9d007944       0x20
- .text          0x9d007944       0x20 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(pic32_data_init_copy.o)
-                0x9d007944                __dinit_copy
-                0x9d007944                __dinit_copy_needed
+.text           0x9d007940       0x20
+ .text          0x9d007940       0x20 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(pic32_data_init_copy.o)
+                0x9d007940                __dinit_copy
+                0x9d007940                __dinit_copy_needed
 
-.MIPS.abiflags  0x9d007968       0x18
+.MIPS.abiflags  0x9d007960       0x18
  .MIPS.abiflags
-                0x9d007968       0x18 build/default/production/main.o
+                0x9d007960       0x18 build/default/production/main.o
 
-.text           0x9d007980       0x30
- .text          0x9d007980       0x18 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-nmi-handler.o)
-                0x9d007980                _nmi_handler
- .text          0x9d007998       0x18 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(pic32_data_init_clear.o)
-                0x9d007998                __dinit_clear_needed
-                0x9d007998                __dinit_clear
+.text           0x9d007978       0x30
+ .text          0x9d007978       0x18 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-nmi-handler.o)
+                0x9d007978                _nmi_handler
+ .text          0x9d007990       0x18 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(pic32_data_init_clear.o)
+                0x9d007990                __dinit_clear_needed
+                0x9d007990                __dinit_clear
 
 .rodata.vendor_string
-                0x9d0079b0       0x14
+                0x9d0079a8       0x14
  .rodata.vendor_string
-                0x9d0079b0       0x14 build/default/production/usb_descriptors.o
+                0x9d0079a8       0x14 build/default/production/usb_descriptors.o
 
 .text.reset_ep0_data_stage
-                0x9d0079c4       0x14
+                0x9d0079bc       0x14
  .text.reset_ep0_data_stage
-                0x9d0079c4       0x14 build/default/production/usb/usb.o
+                0x9d0079bc       0x14 build/default/production/usb/usb.o
 
-.rodata         0x9d0079d8       0x14
- .rodata        0x9d0079d8       0x14 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(pic32_data_init_core.o)
+.rodata         0x9d0079d0       0x14
+ .rodata        0x9d0079d0       0x14 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(pic32_data_init_core.o)
 
 .rodata.serial_string
-                0x9d0079ec       0x12
+                0x9d0079e4       0x12
  .rodata.serial_string
-                0x9d0079ec       0x12 build/default/production/usb_descriptors.o
+                0x9d0079e4       0x12 build/default/production/usb_descriptors.o
 
 .rodata.this_device_descriptor
-                0x9d007a00       0x12
+                0x9d0079f8       0x12
  .rodata.this_device_descriptor
-                0x9d007a00       0x12 build/default/production/usb_descriptors.o
-                0x9d007a00                this_device_descriptor
+                0x9d0079f8       0x12 build/default/production/usb_descriptors.o
+                0x9d0079f8                this_device_descriptor
 
 .text.app_get_device_status_callback
-                0x9d007a14        0x8
+                0x9d007a0c        0x8
  .text.app_get_device_status_callback
-                0x9d007a14        0x8 build/default/production/main.o
-                0x9d007a14                app_get_device_status_callback
+                0x9d007a0c        0x8 build/default/production/main.o
+                0x9d007a0c                app_get_device_status_callback
 
 .text.app_endpoint_halt_callback
-                0x9d007a1c        0x8
+                0x9d007a14        0x8
  .text.app_endpoint_halt_callback
-                0x9d007a1c        0x8 build/default/production/main.o
-                0x9d007a1c                app_endpoint_halt_callback
+                0x9d007a14        0x8 build/default/production/main.o
+                0x9d007a14                app_endpoint_halt_callback
 
 .text.app_set_interface_callback
-                0x9d007a24        0x8
+                0x9d007a1c        0x8
  .text.app_set_interface_callback
-                0x9d007a24        0x8 build/default/production/main.o
-                0x9d007a24                app_set_interface_callback
+                0x9d007a1c        0x8 build/default/production/main.o
+                0x9d007a1c                app_set_interface_callback
 
 .text.app_get_interface_callback
-                0x9d007a2c        0x8
+                0x9d007a24        0x8
  .text.app_get_interface_callback
-                0x9d007a2c        0x8 build/default/production/main.o
-                0x9d007a2c                app_get_interface_callback
+                0x9d007a24        0x8 build/default/production/main.o
+                0x9d007a24                app_get_interface_callback
 
 .text.app_unknown_get_descriptor_callback
-                0x9d007a34        0x8
+                0x9d007a2c        0x8
  .text.app_unknown_get_descriptor_callback
-                0x9d007a34        0x8 build/default/production/main.o
-                0x9d007a34                app_unknown_get_descriptor_callback
+                0x9d007a2c        0x8 build/default/production/main.o
+                0x9d007a2c                app_unknown_get_descriptor_callback
 
 .text.app_start_of_frame_callback
-                0x9d007a3c        0x8
+                0x9d007a34        0x8
  .text.app_start_of_frame_callback
-                0x9d007a3c        0x8 build/default/production/main.o
-                0x9d007a3c                app_start_of_frame_callback
+                0x9d007a34        0x8 build/default/production/main.o
+                0x9d007a34                app_start_of_frame_callback
 
 .text.app_set_line_coding_callback
-                0x9d007a44        0x8
+                0x9d007a3c        0x8
  .text.app_set_line_coding_callback
-                0x9d007a44        0x8 build/default/production/main.o
-                0x9d007a44                app_set_line_coding_callback
+                0x9d007a3c        0x8 build/default/production/main.o
+                0x9d007a3c                app_set_line_coding_callback
 
 .text.usb_get_configuration
-                0x9d007a4c        0x8
+                0x9d007a44        0x8
  .text.usb_get_configuration
-                0x9d007a4c        0x8 build/default/production/usb/usb.o
-                0x9d007a4c                usb_get_configuration
+                0x9d007a44        0x8 build/default/production/usb/usb.o
+                0x9d007a44                usb_get_configuration
 
 .text._on_reset
-                0x9d007a54        0x8
+                0x9d007a4c        0x8
  .text._on_reset
-                0x9d007a54        0x8 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-on-reset.o)
-                0x9d007a54                _on_reset
+                0x9d007a4c        0x8 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-on-reset.o)
+                0x9d007a4c                _on_reset
 
 .text._on_bootstrap
-                0x9d007a5c        0x8
+                0x9d007a54        0x8
  .text._on_bootstrap
-                0x9d007a5c        0x8 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-on-bootstrap.o)
-                0x9d007a5c                _on_bootstrap
+                0x9d007a54        0x8 C:/Program Files/Microchip/xc32/v5.00/bin/bin/../../lib/gcc/pic32m/13.2.1/../../../../pic32m/lib\libpic32.a(default-on-bootstrap.o)
+                0x9d007a54                _on_bootstrap
 
-.rodata.str00   0x9d007964        0x4
- .rodata.str00  0x9d007964        0x4 build/default/production/usb_descriptors.o
+.rodata.str00   0x9d007a5c        0x4
+ .rodata.str00  0x9d007a5c        0x4 build/default/production/usb_descriptors.o
