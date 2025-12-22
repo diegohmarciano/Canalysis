@@ -47,6 +47,8 @@
 #include "usb_cdc.h"
 #include "CAN.h"
 #include "version.h"
+#include "gvret.h"
+#include "can_driver.h"
 
 // System Frequency Definitions
 #define SYS_FREQ 48000000UL
@@ -75,8 +77,16 @@ static volatile uint32_t usb_configured_count = 0;
 static volatile bool cdc_connected = false;
 static volatile bool send_welcome = false;
 
-// Received command from CDC
+// Received command from CDC (for debug menu)
 static volatile char received_cmd = 0;
+
+// GVRET protocol context
+static GVRET_Context gvret_ctx;
+
+// DEBUG MODE: Raw CAN ID printing (bypasses GVRET)
+static volatile bool debug_can_mode = false;
+static volatile uint32_t debug_last_print = 0;
+static volatile uint32_t debug_frame_count = 0;
 
 // CAN Loopback test state
 static volatile bool loopback_running = false;
@@ -138,7 +148,8 @@ void cdc_send_hex_byte(uint8_t b);
 void cdc_send_hex_sid(uint16_t sid);
 
 // Track if endpoint 2 IN is busy
-static volatile bool ep2_in_busy = false;
+// Track if endpoint 2 IN is busy (shared with gvret.c)
+volatile bool ep2_in_busy = false;
 
 // Wait for endpoint to be ready (with timeout)
 static void wait_ep2_ready(void) {
@@ -179,19 +190,22 @@ void send_status_message(void) {
     cdc_send_string("\r\n================================\r\n");
     cdc_send_string("   CANalysis USB-CAN Bridge\r\n");
     cdc_send_string("   Firmware " FW_VERSION_STRING "\r\n");
-    cdc_send_string("================================\r\n");
+    cdc_send_string("   Build #");
+    cdc_send_number(FW_BUILD_NUM);
+    cdc_send_string("\r\n================================\r\n");
     cdc_send_string(FW_MCU " @ ");
     cdc_send_number(FW_CLOCK_MHZ);
     cdc_send_string("MHz\r\n");
-    cdc_send_string("USB CDC Virtual COM Port\r\n");
+    cdc_send_string("GVRET Protocol Ready\r\n");
     cdc_send_string("Build: " FW_BUILD_DATE " " FW_BUILD_TIME "\r\n");
-    cdc_send_string("\r\nCommands:\r\n");
-    cdc_send_string("  i - Internal loopback (CAN1 only)\r\n");
-    cdc_send_string("  l - Internal loopback (CAN2 only)\r\n");
-    cdc_send_string("  p - External loopback (CAN1->CAN2)\r\n");
-    cdc_send_string("  q - External loopback (CAN2->CAN1)\r\n");
+    cdc_send_string("\r\nDebug Commands:\r\n");
+    cdc_send_string("  d - DEBUG: Print raw CAN IDs (500kbps)\r\n");
+    cdc_send_string("  i - Internal loopback (CAN1)\r\n");
+    cdc_send_string("  l - Internal loopback (CAN2)\r\n");
+    cdc_send_string("  p - External (CAN1->CAN2)\r\n");
+    cdc_send_string("  q - External (CAN2->CAN1)\r\n");
     cdc_send_string("  s - Stop test\r\n");
-    cdc_send_string("\r\nReady.\r\n\r\n");
+    cdc_send_string("\r\nUse SavvyCAN for GVRET mode.\r\n\r\n");
 }
 
 // Helper to print a number
@@ -290,17 +304,29 @@ void app_out_transaction_callback(uint8_t ep) {
     LED_CAN1 = 1;
     
     if (ep == 2) {
-        // CDC data endpoint - check for commands
+        // CDC data endpoint
         const unsigned char *data;
         size_t len = usb_get_out_buffer(ep, &data);
         if (len > 0) {
-            // Store first character as command
-            received_cmd = data[0];
+            // Process each byte through GVRET protocol
+            for (size_t i = 0; i < len; i++) {
+                // Check for debug menu commands first (only in idle/non-binary mode)
+                if (!gvret_is_binary_mode(&gvret_ctx) && 
+                    gvret_ctx.state == GVRET_STATE_IDLE) {
+                    // Pass to debug menu for loopback tests
+                    char c = data[i];
+                    if (c == 'i' || c == 'I' || c == 'l' || c == 'L' ||
+                        c == 'p' || c == 'P' || c == 'q' || c == 'Q' ||
+                        c == 's' || c == 'S' || c == 'd' || c == 'D') {
+                        received_cmd = c;
+                    }
+                }
+                
+                // Always process through GVRET (handles 0xE7 and 0xF1)
+                gvret_process_byte(&gvret_ctx, data[i]);
+            }
             
-            // Echo back
-            unsigned char *in_buf = usb_get_in_buffer(ep);
-            memcpy(in_buf, data, len);
-            usb_send_in_buffer(ep, len);
+            // Re-arm endpoint for next reception
             usb_arm_out_endpoint(ep);
         }
     }
@@ -393,71 +419,85 @@ int8_t app_send_break_callback(uint8_t interface, uint16_t duration) {
 // CAN Functions
 // ============================================================================
 
-// CAN1 RX Interrupt Handler (for internal loopback and external RX)
+// CAN1 RX Interrupt Handler (for internal loopback ONLY - GVRET uses polling)
 void __attribute__((vector(_CAN_1_VECTOR), interrupt(IPL4SOFT), nomips16)) CAN1_ISR(void) {
     LED_CAN1 ^= 1;  // Toggle LED to show ISR activity
     
-    // Check FIFO0 first (used in external RX mode - q test)
-    if (C1FIFOINT0bits.RXNEMPTYIF) {
-        volatile uint32_t *rxBuf = CAN1_FIFO0_PTR;
-        
-        can_rx_sid = rxBuf[0] & 0x7FF;
-        can_rx_dlc = rxBuf[1] & 0x0F;
-        volatile uint8_t *dataPtr = (volatile uint8_t *)&rxBuf[2];
-        for (int i = 0; i < 8; i++) {
-            can_rx_data[i] = dataPtr[i];
+    // In GVRET binary mode, we use POLLING not interrupts!
+    // This prevents ISR starvation that blocks USB.
+    // Just clear the flag and return - main loop will poll.
+    if (gvret_is_binary_mode(&gvret_ctx)) {
+        C1INTbits.RBIF = 0;  // Clear interrupt flag
+        IFS1CLR = _IFS1_CAN1IF_MASK;
+        return;  // Let main loop handle it via polling
+    } else {
+        // Legacy loopback test mode - use the old handler
+        // Check FIFO0 first (used in external RX mode - q test)
+        if (C1FIFOINT0bits.RXNEMPTYIF) {
+            volatile uint32_t *rxBuf = CAN1_FIFO0_PTR;
+            
+            can_rx_sid = rxBuf[0] & 0x7FF;
+            can_rx_dlc = rxBuf[1] & 0x0F;
+            volatile uint8_t *dataPtr = (volatile uint8_t *)&rxBuf[2];
+            for (int i = 0; i < 8; i++) {
+                can_rx_data[i] = dataPtr[i];
+            }
+            can_msg_received = true;
+            
+            C1FIFOCON0bits.UINC = 1;
         }
-        can_msg_received = true;
-        
-        C1FIFOCON0bits.UINC = 1;
-    }
-    // Check FIFO1 (used in internal loopback mode - i test)
-    else if (C1FIFOINT1bits.RXNEMPTYIF) {
-        volatile uint32_t *rxBuf = CAN1_FIFO1_PTR;
-        
-        can_rx_sid = rxBuf[0] & 0x7FF;
-        can_rx_dlc = rxBuf[1] & 0x0F;
-        volatile uint8_t *dataPtr = (volatile uint8_t *)&rxBuf[2];
-        for (int i = 0; i < 8; i++) {
-            can_rx_data[i] = dataPtr[i];
+        // Check FIFO1 (used in internal loopback mode - i test)
+        else if (C1FIFOINT1bits.RXNEMPTYIF) {
+            volatile uint32_t *rxBuf = CAN1_FIFO1_PTR;
+            
+            can_rx_sid = rxBuf[0] & 0x7FF;
+            can_rx_dlc = rxBuf[1] & 0x0F;
+            volatile uint8_t *dataPtr = (volatile uint8_t *)&rxBuf[2];
+            for (int i = 0; i < 8; i++) {
+                can_rx_data[i] = dataPtr[i];
+            }
+            can_msg_received = true;
+            
+            C1FIFOCON1bits.UINC = 1;
         }
-        can_msg_received = true;
-        
-        C1FIFOCON1bits.UINC = 1;
     }
     
-    // CRITICAL: Clear ALL possible CAN1 interrupt sources to prevent infinite loop
-    C1INTCLR = 0x00FF00FF;  // Clear all interrupt flags in C1INT
-    IFS1CLR = _IFS1_CAN1IF_MASK;  // Clear system interrupt flag
+    // Clear only RBIF (bit 1), NOT enable bits (bits 16-23)
+    // 0x00FF00FF was clearing RBIE which disabled further interrupts!
+    C1INTbits.RBIF = 0;  // Clear receive buffer interrupt flag only
+    IFS1CLR = _IFS1_CAN1IF_MASK;
 }
 
-// CAN2 RX Interrupt Handler (for external loopback)
+// CAN2 RX Interrupt Handler (for external loopback ONLY - GVRET uses polling)
 void __attribute__((vector(_CAN_2_VECTOR), interrupt(IPL4SOFT), nomips16)) CAN2_ISR(void) {
     LED_CAN2 ^= 1;  // Toggle LED to show ISR activity
     
-    // Check if FIFO0 has received a message
-    if (C2FIFOINT0bits.RXNEMPTYIF) {
-        // Use direct pointer into our contiguous buffer - FIFO0 is at offset 0
-        volatile uint32_t *rxBuf = CAN2_FIFO0_PTR;
-        
-        // Extract SID from bits 10:0 of Word 0
-        can_rx_sid = rxBuf[0] & 0x7FF;
-        // Extract DLC from bits 3:0 of Word 1
-        can_rx_dlc = rxBuf[1] & 0x0F;
-        // Copy data from Words 2-3
-        volatile uint8_t *dataPtr = (volatile uint8_t *)&rxBuf[2];
-        for (int i = 0; i < 8; i++) {
-            can_rx_data[i] = dataPtr[i];
+    // In GVRET binary mode, we use POLLING not interrupts!
+    // Just clear the flag and return - main loop will handle it.
+    if (gvret_is_binary_mode(&gvret_ctx)) {
+        C2INTbits.RBIF = 0;  // Clear interrupt flag
+        IFS1CLR = _IFS1_CAN2IF_MASK;
+        return;  // Let main loop handle it via polling
+    } else {
+        // Legacy loopback test mode
+        if (C2FIFOINT0bits.RXNEMPTYIF) {
+            volatile uint32_t *rxBuf = CAN2_FIFO0_PTR;
+            
+            can_rx_sid = rxBuf[0] & 0x7FF;
+            can_rx_dlc = rxBuf[1] & 0x0F;
+            volatile uint8_t *dataPtr = (volatile uint8_t *)&rxBuf[2];
+            for (int i = 0; i < 8; i++) {
+                can_rx_data[i] = dataPtr[i];
+            }
+            can_msg_received = true;
+            
+            C2FIFOCON0bits.UINC = 1;
         }
-        can_msg_received = true;
-        
-        // Increment FIFO pointer to free the slot
-        C2FIFOCON0bits.UINC = 1;
     }
     
-    // CRITICAL: Clear ALL possible CAN2 interrupt sources
-    C2INTCLR = 0x00FF00FF;  // Clear all interrupt flags in C2INT
-    IFS1CLR = _IFS1_CAN2IF_MASK;  // Clear system interrupt flag
+    // Clear only RBIF, NOT enable bits
+    C2INTbits.RBIF = 0;
+    IFS1CLR = _IFS1_CAN2IF_MASK;
 }
 
 // Wait for CAN mode change with timeout
@@ -1402,6 +1442,19 @@ int main(void) {
         delay_ms(100);
     }
 
+    // Initialize CAN driver
+    can_driver_init();
+    
+    // Initialize GVRET protocol
+    gvret_init(&gvret_ctx);
+    
+    // DON'T enable CAN at startup - wait for SavvyCAN to send config command
+    // This prevents ISR flooding before USB/GVRET is ready
+    // Just set default values in GVRET context (hardware stays disabled)
+    gvret_ctx.can[0].speed = 500000;
+    gvret_ctx.can[0].enabled = false;  // Disabled until SavvyCAN configures
+    gvret_ctx.can[0].listenOnly = false;
+    
     // Initialize USB
     usb_init();
     
@@ -1416,12 +1469,61 @@ int main(void) {
         // Service USB
         usb_service();
         
+        // Flush GVRET buffer if needed
+        gvret_flush_if_needed(&gvret_ctx, gvret_get_timestamp());
+        
+        // Stream CAN RX frames to GVRET (when in binary mode)
+        // Using POLLING approach (like M2RET) instead of ISR to prevent USB starvation
+        if (gvret_is_binary_mode(&gvret_ctx)) {
+            CAN_Frame rxFrame;
+            GVRET_CANFrame gvFrame;
+            uint8_t processed = 0;
+            const uint8_t MAX_PER_LOOP = 4;  // Process up to 4 frames per main loop
+            
+            // Poll CAN1 hardware FIFO directly
+            while (C1FIFOINT1bits.RXNEMPTYIF && processed < MAX_PER_LOOP) {
+                can_process_rx(CAN_BUS_0);  // Move from HW FIFO to SW queue
+                processed++;
+            }
+            
+            // Poll CAN2 hardware FIFO directly  
+            while (C2FIFOINT1bits.RXNEMPTYIF && processed < MAX_PER_LOOP) {
+                can_process_rx(CAN_BUS_1);
+                processed++;
+            }
+            
+            // Now send any queued frames to USB
+            for (uint8_t bus = 0; bus < CAN_NUM_BUSES; bus++) {
+                while (can_rx_available(bus) > 0) {
+                    if (can_rx_get(bus, &rxFrame)) {
+                        LED_CAN1 ^= 1;  // Toggle LED to show activity
+                        
+                        // Convert to GVRET format
+                        gvFrame.id = rxFrame.id;
+                        gvFrame.length = rxFrame.length;
+                        gvFrame.bus = rxFrame.bus;
+                        gvFrame.extended = rxFrame.extended;
+                        for (int i = 0; i < 8; i++) {
+                            gvFrame.data[i] = rxFrame.data[i];
+                        }
+                        
+                        // Send to host
+                        gvret_send_can_frame(&gvret_ctx, &gvFrame, rxFrame.timestamp);
+                    }
+                }
+            }
+        }
+        
         loop_count++;
         
-        // Send welcome message when terminal connects
-        if (send_welcome && usb_is_configured()) {
+        // Send welcome message when terminal connects (but not in binary GVRET mode)
+        if (send_welcome && usb_is_configured() && !gvret_is_binary_mode(&gvret_ctx)) {
             delay_ms(100);  // Brief delay for terminal to be ready
             send_status_message();
+            send_welcome = false;
+        }
+        // If SavvyCAN connected (binary mode), just clear the flag
+        if (send_welcome && gvret_is_binary_mode(&gvret_ctx)) {
             send_welcome = false;
         }
         
@@ -1538,10 +1640,132 @@ int main(void) {
             }
         }
         
+        if (received_cmd == 'd' || received_cmd == 'D') {
+            received_cmd = 0;
+            
+            if (!debug_can_mode && !loopback_running) {
+                cdc_send_string("\r\n=== DEBUG CAN RX MODE ===\r\n");
+                cdc_send_string("Enabling CAN0 at 500kbps...\r\n");
+                cdc_send_string("Will print raw FIFO data for each frame.\r\n");
+                cdc_send_string("Press 's' to stop.\r\n\r\n");
+                
+                // Configure and enable CAN0
+                CAN_Config cfg;
+                cfg.baudRate = 500000;
+                cfg.enabled = true;
+                cfg.listenOnly = false;  // Normal mode to ACK frames
+                
+                if (can_configure(CAN_BUS_0, &cfg)) {
+                    cdc_send_string("CAN0 enabled.\r\n");
+                    
+                    // Print FIFO configuration for debugging
+                    uint32_t fifoba = C1FIFOBA;
+                    cdc_send_string("C1FIFOBA = 0x");
+                    cdc_send_hex_byte((fifoba >> 24) & 0xFF);
+                    cdc_send_hex_byte((fifoba >> 16) & 0xFF);
+                    cdc_send_hex_byte((fifoba >> 8) & 0xFF);
+                    cdc_send_hex_byte(fifoba & 0xFF);
+                    cdc_send_string("\r\n");
+                    
+                    cdc_send_string("C1FIFOCON0 = 0x");
+                    cdc_send_hex_byte((C1FIFOCON0 >> 24) & 0xFF);
+                    cdc_send_hex_byte((C1FIFOCON0 >> 16) & 0xFF);
+                    cdc_send_hex_byte((C1FIFOCON0 >> 8) & 0xFF);
+                    cdc_send_hex_byte(C1FIFOCON0 & 0xFF);
+                    cdc_send_string("\r\n");
+                    
+                    cdc_send_string("C1FIFOCON1 = 0x");
+                    cdc_send_hex_byte((C1FIFOCON1 >> 24) & 0xFF);
+                    cdc_send_hex_byte((C1FIFOCON1 >> 16) & 0xFF);
+                    cdc_send_hex_byte((C1FIFOCON1 >> 8) & 0xFF);
+                    cdc_send_hex_byte(C1FIFOCON1 & 0xFF);
+                    cdc_send_string("\r\n");
+                    
+                    cdc_send_string("Waiting for frames...\r\n\r\n");
+                    debug_can_mode = true;
+                    debug_frame_count = 0;
+                } else {
+                    cdc_send_string("ERROR: CAN0 init failed!\r\n\r\n");
+                }
+            }
+        }
+        
         if (received_cmd == 's' || received_cmd == 'S') {
             received_cmd = 0;
+            if (debug_can_mode) {
+                debug_can_mode = false;
+                can_disable(CAN_BUS_0);
+                cdc_send_string("\r\n--- Debug mode stopped ---\r\n");
+                cdc_send_string("Total frames: ");
+                cdc_send_number(debug_frame_count);
+                cdc_send_string("\r\n\r\n");
+            }
             if (loopback_running) {
                 loopback_stop_requested = true;
+            }
+        }
+        
+        // DEBUG MODE: Poll CAN FIFO and print raw data
+        if (debug_can_mode) {
+            // Check if FIFO1 has a message
+            if (C1FIFOINT1bits.RXNEMPTYIF) {
+                LED_CAN1 = 1;
+                
+                // Get the FIFO address (physical -> virtual)
+                uint32_t fifoPA = C1FIFOUA1;
+                volatile uint32_t *rxBuf = (volatile uint32_t *)PA_TO_KVA1(fifoPA);
+                
+                // Read raw words
+                uint32_t word0 = rxBuf[0];
+                uint32_t word1 = rxBuf[1];
+                uint32_t word2 = rxBuf[2];  // Data bytes 0-3
+                uint32_t word3 = rxBuf[3];  // Data bytes 4-7
+                
+                // Parse the ID
+                uint32_t id;
+                if (word0 & (1 << 19)) {
+                    // Extended
+                    id = ((word0 >> 11) & 0x3FFFF) | ((word0 & 0x7FF) << 18);
+                } else {
+                    // Standard
+                    id = word0 & 0x7FF;
+                }
+                
+                uint8_t dlc = word1 & 0x0F;
+                
+                // Print: Frame# | FIFO_PA | Word0 | ID | DLC
+                cdc_send_string("F");
+                cdc_send_number(debug_frame_count);
+                cdc_send_string(" PA=0x");
+                cdc_send_hex_byte((fifoPA >> 24) & 0xFF);
+                cdc_send_hex_byte((fifoPA >> 16) & 0xFF);
+                cdc_send_hex_byte((fifoPA >> 8) & 0xFF);
+                cdc_send_hex_byte(fifoPA & 0xFF);
+                cdc_send_string(" W0=0x");
+                cdc_send_hex_byte((word0 >> 24) & 0xFF);
+                cdc_send_hex_byte((word0 >> 16) & 0xFF);
+                cdc_send_hex_byte((word0 >> 8) & 0xFF);
+                cdc_send_hex_byte(word0 & 0xFF);
+                cdc_send_string(" ID=0x");
+                cdc_send_hex_byte((id >> 8) & 0xFF);
+                cdc_send_hex_byte(id & 0xFF);
+                cdc_send_string(" L=");
+                cdc_send_number(dlc);
+                cdc_send_string("\r\n");
+                
+                debug_frame_count++;
+                
+                // CRITICAL: Increment FIFO pointer to release this slot
+                // MUST use atomic SET register - bit-field write doesn't work for write-only bits!
+                C1FIFOCON1SET = _C1FIFOCON1_UINC_MASK;
+                
+                LED_CAN1 = 0;
+            }
+            
+            // Clear any overflow
+            if (C1FIFOINT1bits.RXOVFLIF) {
+                C1FIFOINT1bits.RXOVFLIF = 0;
+                cdc_send_string("!OVERFLOW!\r\n");
             }
         }
         

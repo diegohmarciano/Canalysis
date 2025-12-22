@@ -51,17 +51,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=main.c usb_descriptors.c usb/usb.c usb/usb_cdc.c
+SOURCEFILES_QUOTED_IF_SPACED=main.c usb_descriptors.c usb/usb.c usb/usb_cdc.c gvret.c can_driver.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/main.o ${OBJECTDIR}/usb_descriptors.o ${OBJECTDIR}/usb/usb.o ${OBJECTDIR}/usb/usb_cdc.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/main.o.d ${OBJECTDIR}/usb_descriptors.o.d ${OBJECTDIR}/usb/usb.o.d ${OBJECTDIR}/usb/usb_cdc.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/main.o ${OBJECTDIR}/usb_descriptors.o ${OBJECTDIR}/usb/usb.o ${OBJECTDIR}/usb/usb_cdc.o ${OBJECTDIR}/gvret.o ${OBJECTDIR}/can_driver.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/main.o.d ${OBJECTDIR}/usb_descriptors.o.d ${OBJECTDIR}/usb/usb.o.d ${OBJECTDIR}/usb/usb_cdc.o.d ${OBJECTDIR}/gvret.o.d ${OBJECTDIR}/can_driver.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/main.o ${OBJECTDIR}/usb_descriptors.o ${OBJECTDIR}/usb/usb.o ${OBJECTDIR}/usb/usb_cdc.o
+OBJECTFILES=${OBJECTDIR}/main.o ${OBJECTDIR}/usb_descriptors.o ${OBJECTDIR}/usb/usb.o ${OBJECTDIR}/usb/usb_cdc.o ${OBJECTDIR}/gvret.o ${OBJECTDIR}/can_driver.o
 
 # Source Files
-SOURCEFILES=main.c usb_descriptors.c usb/usb.c usb/usb_cdc.c
+SOURCEFILES=main.c usb_descriptors.c usb/usb.c usb/usb_cdc.c gvret.c can_driver.c
 
 
 
@@ -125,6 +125,18 @@ ${OBJECTDIR}/usb/usb_cdc.o: usb/usb_cdc.c  nbproject/Makefile-${CND_CONF}.mk
 	@${RM} ${OBJECTDIR}/usb/usb_cdc.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I. -Iusb -ffunction-sections -fdata-sections -O1 -fno-common -Wall -MP -MMD -MF "${OBJECTDIR}/usb/usb_cdc.o.d" -o ${OBJECTDIR}/usb/usb_cdc.o usb/usb_cdc.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
+${OBJECTDIR}/gvret.o: gvret.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/gvret.o.d 
+	@${RM} ${OBJECTDIR}/gvret.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I. -Iusb -ffunction-sections -fdata-sections -O1 -fno-common -Wall -MP -MMD -MF "${OBJECTDIR}/gvret.o.d" -o ${OBJECTDIR}/gvret.o gvret.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/can_driver.o: can_driver.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/can_driver.o.d 
+	@${RM} ${OBJECTDIR}/can_driver.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I. -Iusb -ffunction-sections -fdata-sections -O1 -fno-common -Wall -MP -MMD -MF "${OBJECTDIR}/can_driver.o.d" -o ${OBJECTDIR}/can_driver.o can_driver.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
 else
 ${OBJECTDIR}/main.o: main.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}" 
@@ -149,6 +161,18 @@ ${OBJECTDIR}/usb/usb_cdc.o: usb/usb_cdc.c  nbproject/Makefile-${CND_CONF}.mk
 	@${RM} ${OBJECTDIR}/usb/usb_cdc.o.d 
 	@${RM} ${OBJECTDIR}/usb/usb_cdc.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I. -Iusb -ffunction-sections -fdata-sections -O1 -fno-common -Wall -MP -MMD -MF "${OBJECTDIR}/usb/usb_cdc.o.d" -o ${OBJECTDIR}/usb/usb_cdc.o usb/usb_cdc.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/gvret.o: gvret.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/gvret.o.d 
+	@${RM} ${OBJECTDIR}/gvret.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I. -Iusb -ffunction-sections -fdata-sections -O1 -fno-common -Wall -MP -MMD -MF "${OBJECTDIR}/gvret.o.d" -o ${OBJECTDIR}/gvret.o gvret.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/can_driver.o: can_driver.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/can_driver.o.d 
+	@${RM} ${OBJECTDIR}/can_driver.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I. -Iusb -ffunction-sections -fdata-sections -O1 -fno-common -Wall -MP -MMD -MF "${OBJECTDIR}/can_driver.o.d" -o ${OBJECTDIR}/can_driver.o can_driver.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
 endif
 
