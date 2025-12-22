@@ -1715,11 +1715,10 @@ int main(void) {
                 uint32_t fifoPA = C1FIFOUA1;
                 volatile uint32_t *rxBuf = (volatile uint32_t *)PA_TO_KVA1(fifoPA);
                 
-                // Read raw words
+                // Read raw words (word0=ID, word1=DLC/flags)
                 uint32_t word0 = rxBuf[0];
                 uint32_t word1 = rxBuf[1];
-                uint32_t word2 = rxBuf[2];  // Data bytes 0-3
-                uint32_t word3 = rxBuf[3];  // Data bytes 4-7
+                // Note: rxBuf[2] and rxBuf[3] contain data bytes if needed
                 
                 // Parse the ID
                 uint32_t id;
