@@ -2,8 +2,8 @@
     "version": 6,
     "configurePresets": [
         {
-            "name": "CanalystII_default_conf",
-            "binaryDir": "${fileDir}/../../../_build/CanalystII/default",
+            "name": "Canalysis_default_conf",
+            "binaryDir": "${fileDir}/../../../_build/Canalysis/default",
             "generator": "Ninja",
             "toolchainFile": "${fileDir}/.generated/toolchain.cmake",
             "cacheVariables": {

@@ -7,13 +7,13 @@
 #define VERSION_H
 
 // Firmware version
-#define FW_VERSION_MAJOR    0
-#define FW_VERSION_MINOR    2
-#define FW_VERSION_STRING   "v0.2"
-#define FW_RELEASE_NAME     "GVRET Phase 1"
+#define FW_VERSION_MAJOR    1
+#define FW_VERSION_MINOR    0
+#define FW_VERSION_STRING   "v1.0"
+#define FW_RELEASE_NAME     "SavvyCAN Integration"
 
 // Build number for GVRET protocol (SavvyCAN compatibility)
-#define FW_BUILD_NUM        100
+#define FW_BUILD_NUM        110
 
 // Build date/time
 #define FW_BUILD_DATE       __DATE__
