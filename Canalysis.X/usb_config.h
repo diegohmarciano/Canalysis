@@ -1,5 +1,5 @@
 /*
- * M-Stack USB Configuration for CanalystII
+ * M-Stack USB Configuration for Canalysis
  * PIC32MX795F512L - CDC ACM (Virtual COM Port)
  */
 

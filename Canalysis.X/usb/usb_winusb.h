@@ -1,6 +1,6 @@
 /*
  * M-Stack WinUSB Support - Stub Header
- * Not used in CanalystII
+ * Not used in Canalysis
  */
 
 #ifndef USB_WINUSB_H__
