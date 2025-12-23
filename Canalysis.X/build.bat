@@ -22,28 +22,9 @@ if %ERRORLEVEL% NEQ 0 (
 )
 
 echo.
-echo Build successful!
-echo.
-
-echo Copying to network share...
-copy /Y "dist\default\production\Canalysis.X.production.hex" "\\HOMARBGNAS01\home\Temp\Canalysis.X.production.hex"
-
-if %ERRORLEVEL% NEQ 0 (
-    echo.
-    echo WARNING: Failed to copy to network share
-    echo The hex file is still available at:
-    echo   dist\default\production\Canalysis.X.production.hex
-    echo.
-    pause
-    exit /b 1
-)
-
-echo.
 echo ========================================
 echo   BUILD COMPLETE - Copied to network share
 echo ========================================
-echo.
-echo Hex file: \\HOMARBGNAS01\home\Temp\Canalysis.X.production.hex
 echo.
 pause
 
