@@ -23,7 +23,7 @@ if %ERRORLEVEL% NEQ 0 (
 
 echo.
 echo ========================================
-echo   BUILD COMPLETE - Copied to network share
+echo   BUILD COMPLETE!
 echo ========================================
 echo.
 pause
